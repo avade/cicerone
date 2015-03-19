@@ -1,0 +1,331 @@
+• [MEASUREMENT]
+Container creation
+/home/vagrant/go/src/github.com/cloudfoundry-incubator/garden-linux/integration/measurements/create_measure_test.go:116
+  multiple concurrent creates
+  /home/vagrant/go/src/github.com/cloudfoundry-incubator/garden-linux/integration/measurements/create_measure_test.go:114
+
+  Ran 5 samples:
+  create-32:
+    Fastest Time: 7.332s
+    Slowest Time: 21.092s
+    Average Time: 15.174s ± 5.892s
+  create-10:
+    Fastest Time: 9.187s
+    Slowest Time: 22.719s
+    Average Time: 15.437s ± 5.419s
+  create-24:
+    Fastest Time: 9.381s
+    Slowest Time: 22.707s
+    Average Time: 14.768s ± 5.539s
+  create-58:
+    Fastest Time: 9.684s
+    Slowest Time: 23.009s
+    Average Time: 19.112s ± 4.998s
+  create-29:
+    Fastest Time: 9.141s
+    Slowest Time: 20.420s
+    Average Time: 13.290s ± 3.909s
+  create-66:
+    Fastest Time: 10.658s
+    Slowest Time: 23.136s
+    Average Time: 18.826s ± 4.385s
+  create-22:
+    Fastest Time: 10.239s
+    Slowest Time: 20.782s
+    Average Time: 14.962s ± 3.992s
+  create-37:
+    Fastest Time: 12.054s
+    Slowest Time: 22.911s
+    Average Time: 18.454s ± 4.126s
+  create-41:
+    Fastest Time: 9.924s
+    Slowest Time: 21.459s
+    Average Time: 16.048s ± 4.076s
+  create-13:
+    Fastest Time: 13.005s
+    Slowest Time: 21.359s
+    Average Time: 17.137s ± 2.778s
+  create-76:
+    Fastest Time: 13.789s
+    Slowest Time: 25.839s
+    Average Time: 20.439s ± 4.189s
+  create-2:
+    Fastest Time: 17.450s
+    Slowest Time: 23.050s
+    Average Time: 19.036s ± 2.042s
+  create-69:
+    Fastest Time: 13.296s
+    Slowest Time: 20.100s
+    Average Time: 17.443s ± 2.323s
+  create-62:
+    Fastest Time: 18.184s
+    Slowest Time: 24.864s
+    Average Time: 21.153s ± 2.489s
+  create-30:
+    Fastest Time: 18.319s
+    Slowest Time: 24.356s
+    Average Time: 21.786s ± 2.212s
+  create-35:
+    Fastest Time: 18.071s
+    Slowest Time: 25.479s
+    Average Time: 20.168s ± 2.714s
+  create-23:
+    Fastest Time: 11.018s
+    Slowest Time: 24.270s
+    Average Time: 18.312s ± 5.294s
+  create-9:
+    Fastest Time: 15.559s
+    Slowest Time: 20.891s
+    Average Time: 19.034s ± 1.958s
+  create-46:
+    Fastest Time: 18.294s
+    Slowest Time: 25.030s
+    Average Time: 21.059s ± 2.840s
+  create-52:
+    Fastest Time: 9.250s
+    Slowest Time: 19.501s
+    Average Time: 13.701s ± 4.335s
+  create-5:
+    Fastest Time: 12.244s
+    Slowest Time: 23.040s
+    Average Time: 18.578s ± 4.028s
+  create-7:
+    Fastest Time: 15.354s
+    Slowest Time: 25.258s
+    Average Time: 20.458s ± 3.194s
+  create-56:
+    Fastest Time: 17.420s
+    Slowest Time: 25.749s
+    Average Time: 21.815s ± 2.997s
+  create-1:
+    Fastest Time: 9.947s
+    Slowest Time: 20.086s
+    Average Time: 14.515s ± 3.715s
+  create-11:
+    Fastest Time: 13.148s
+    Slowest Time: 22.714s
+    Average Time: 18.444s ± 3.523s
+  create-40:
+    Fastest Time: 17.348s
+    Slowest Time: 23.864s
+    Average Time: 20.624s ± 2.814s
+  create-65:
+    Fastest Time: 12.080s
+    Slowest Time: 24.841s
+    Average Time: 17.646s ± 4.836s
+  create-78:
+    Fastest Time: 18.843s
+    Slowest Time: 24.728s
+    Average Time: 21.602s ± 2.460s
+  create-27:
+    Fastest Time: 15.573s
+    Slowest Time: 23.499s
+    Average Time: 20.549s ± 2.674s
+  create-67:
+    Fastest Time: 8.879s
+    Slowest Time: 20.849s
+    Average Time: 14.125s ± 4.057s
+  create-3:
+    Fastest Time: 12.083s
+    Slowest Time: 24.134s
+    Average Time: 18.443s ± 4.041s
+  create-70:
+    Fastest Time: 15.522s
+    Slowest Time: 22.308s
+    Average Time: 19.517s ± 2.296s
+  create-75:
+    Fastest Time: 21.200s
+    Slowest Time: 25.152s
+    Average Time: 23.656s ± 1.329s
+  create-59:
+    Fastest Time: 19.284s
+    Slowest Time: 22.235s
+    Average Time: 20.962s ± 1.164s
+  create-39:
+    Fastest Time: 10.463s
+    Slowest Time: 23.967s
+    Average Time: 19.492s ± 4.878s
+  create-45:
+    Fastest Time: 18.875s
+    Slowest Time: 24.360s
+    Average Time: 22.009s ± 2.055s
+  create-57:
+    Fastest Time: 18.819s
+    Slowest Time: 24.473s
+    Average Time: 22.407s ± 2.033s
+  create-44:
+    Fastest Time: 18.621s
+    Slowest Time: 24.051s
+    Average Time: 21.761s ± 1.763s
+  create-12:
+    Fastest Time: 18.106s
+    Slowest Time: 24.479s
+    Average Time: 21.434s ± 2.626s
+  create-25:
+    Fastest Time: 11.866s
+    Slowest Time: 22.287s
+    Average Time: 18.982s ± 3.785s
+  create-21:
+    Fastest Time: 8.605s
+    Slowest Time: 22.181s
+    Average Time: 17.896s ± 4.833s
+  create-55:
+    Fastest Time: 10.763s
+    Slowest Time: 22.477s
+    Average Time: 17.052s ± 4.674s
+  create-60:
+    Fastest Time: 17.903s
+    Slowest Time: 22.526s
+    Average Time: 20.302s ± 1.872s
+  create-77:
+    Fastest Time: 15.910s
+    Slowest Time: 22.730s
+    Average Time: 19.497s ± 2.627s
+  create-15:
+    Fastest Time: 13.924s
+    Slowest Time: 24.881s
+    Average Time: 19.529s ± 4.111s
+  create-51:
+    Fastest Time: 13.408s
+    Slowest Time: 24.488s
+    Average Time: 20.289s ± 3.873s
+  create-48:
+    Fastest Time: 19.408s
+    Slowest Time: 22.827s
+    Average Time: 21.334s ± 1.421s
+  create-54:
+    Fastest Time: 19.493s
+    Slowest Time: 23.005s
+    Average Time: 21.533s ± 1.272s
+  create-33:
+    Fastest Time: 12.989s
+    Slowest Time: 23.941s
+    Average Time: 20.708s ± 3.985s
+  create-43:
+    Fastest Time: 8.740s
+    Slowest Time: 24.531s
+    Average Time: 19.444s ± 5.675s
+  create-68:
+    Fastest Time: 11.395s
+    Slowest Time: 23.417s
+    Average Time: 18.164s ± 4.350s
+  create-0:
+    Fastest Time: 13.334s
+    Slowest Time: 23.609s
+    Average Time: 19.203s ± 3.634s
+  create-6:
+    Fastest Time: 16.956s
+    Slowest Time: 23.639s
+    Average Time: 20.321s ± 2.170s
+  create-49:
+    Fastest Time: 20.324s
+    Slowest Time: 25.734s
+    Average Time: 23.636s ± 1.859s
+  create-47:
+    Fastest Time: 18.354s
+    Slowest Time: 23.722s
+    Average Time: 21.443s ± 2.498s
+  create-50:
+    Fastest Time: 14.182s
+    Slowest Time: 25.178s
+    Average Time: 19.711s ± 4.270s
+  create-64:
+    Fastest Time: 16.876s
+    Slowest Time: 24.342s
+    Average Time: 21.798s ± 2.937s
+  create-20:
+    Fastest Time: 13.443s
+    Slowest Time: 24.778s
+    Average Time: 19.905s ± 4.207s
+  create-42:
+    Fastest Time: 17.710s
+    Slowest Time: 24.836s
+    Average Time: 22.507s ± 2.539s
+  create-26:
+    Fastest Time: 13.411s
+    Slowest Time: 24.838s
+    Average Time: 21.734s ± 4.279s
+  create-71:
+    Fastest Time: 10.010s
+    Slowest Time: 24.839s
+    Average Time: 17.664s ± 6.051s
+  create-63:
+    Fastest Time: 15.502s
+    Slowest Time: 25.004s
+    Average Time: 20.169s ± 3.991s
+  create-79:
+    Fastest Time: 10.034s
+    Slowest Time: 25.070s
+    Average Time: 18.085s ± 5.032s
+  create-18:
+    Fastest Time: 16.790s
+    Slowest Time: 25.151s
+    Average Time: 19.599s ± 2.981s
+  create-34:
+    Fastest Time: 20.326s
+    Slowest Time: 25.184s
+    Average Time: 23.561s ± 1.785s
+  create-4:
+    Fastest Time: 16.800s
+    Slowest Time: 25.685s
+    Average Time: 21.032s ± 2.853s
+  create-16:
+    Fastest Time: 11.279s
+    Slowest Time: 25.798s
+    Average Time: 22.307s ± 5.569s
+  create-72:
+    Fastest Time: 20.208s
+    Slowest Time: 25.819s
+    Average Time: 22.372s ± 1.986s
+  create-73:
+    Fastest Time: 9.417s
+    Slowest Time: 25.827s
+    Average Time: 18.069s ± 5.869s
+  create-31:
+    Fastest Time: 16.977s
+    Slowest Time: 25.894s
+    Average Time: 21.161s ± 2.893s
+  create-14:
+    Fastest Time: 18.226s
+    Slowest Time: 25.921s
+    Average Time: 22.425s ± 3.180s
+  create-8:
+    Fastest Time: 12.663s
+    Slowest Time: 25.928s
+    Average Time: 18.600s ± 5.233s
+  create-36:
+    Fastest Time: 18.295s
+    Slowest Time: 25.947s
+    Average Time: 21.939s ± 2.946s
+  create-38:
+    Fastest Time: 20.075s
+    Slowest Time: 26.333s
+    Average Time: 22.357s ± 2.388s
+  create-19:
+    Fastest Time: 11.171s
+    Slowest Time: 26.385s
+    Average Time: 19.605s ± 5.315s
+  create-74:
+    Fastest Time: 18.760s
+    Slowest Time: 26.562s
+    Average Time: 21.719s ± 2.856s
+  create-53:
+    Fastest Time: 11.113s
+    Slowest Time: 26.613s
+    Average Time: 18.060s ± 5.574s
+  create-61:
+    Fastest Time: 12.097s
+    Slowest Time: 26.649s
+    Average Time: 18.528s ± 5.454s
+  create-28:
+    Fastest Time: 18.304s
+    Slowest Time: 26.696s
+    Average Time: 21.353s ± 2.932s
+  create-17:
+    Fastest Time: 17.285s
+    Slowest Time: 27.419s
+    Average Time: 21.580s ± 3.609s
+  concurrent creations:
+    Fastest Time: 24.881s
+    Slowest Time: 27.428s
+    Average Time: 25.841s ± 0.871s
