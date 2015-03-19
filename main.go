@@ -28,6 +28,7 @@ func init() {
 		&commands.SlurpBosh{},
 		&commands.AnalyzeConvergenceForMissingCells{},
 		&commands.FezzikLRPs{},
+		&commands.AnalyzeCreateContainer{},
 
 		//one-offs
 		// &commands.SlurpDisappearingCells{},

@@ -116,8 +116,9 @@ func (g *GroupedEntries) first(matcher Matcher) (Entry, bool) {
 //Note that Timelines aren't Key=>Timeline mappings.  Instead GroupedEntries returns a *flat list* of Timelines with the Key parameter associated with the individual Timeline.
 func (g *GroupedEntries) ConstructTimelines(description TimelineDescription) (Timelines, error) {
 	firstEntry, found := g.first(description[0].Matcher)
+	fmt.Printf("number of log entries for %+v : %d", description[0], len(g.Entries))
 	if !found {
-		return Timelines{}, fmt.Errorf("unable to find first entry to anchor timelines")
+		return Timelines{}, fmt.Errorf("unable to find first entry to anchor timelines %+v", description[0])
 	}
 
 	timelines := Timelines{}
